@@ -11,7 +11,7 @@ This repository contains MATLAB implementations of the Gillespie Stochastic Simu
 * **Description:** Implementation of the standard p53-Mdm2-ARF negative feedback loop.
 * **Features:** Simulates the system under normal homeostasis and acute DNA damage (Irradiation). Validates the necessity of the Mdm2-mRNA time delay for sustained oscillations.
 
-### 2. Aging Simulations (Proteostasis Impairment)
+### 2. Aging Simulations
 
 * **Description:** Modifies the ARF model to simulate cellular aging.
 * **Mechanism:** Simulates a ~50% decline in proteasomal efficiency by **halving the degradation rate constants** (`k_deg`) for p53, Mdm2, and ARF.
